@@ -1,0 +1,55 @@
+.logo {
+    margin: 40px 0;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Playball', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.logo p {
+    background: -webkit-linear-gradient( left, #651FFF, #651FFF, #18FFFF, #D500F9, #D500F9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo span {
+    font-family: 'Monoton', cursive;
+    background: -webkit-linear-gradient( left, #651FFF, #18FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin: 0 3%;
+    padding: 10px;
+    border: 1px solid #656565;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px 1px #656565;
+}
+
+
+/** media querie **/
+
+@media screen and (max-width: 580px) {
+    .logo {
+        width: 100%;
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 581px) {
+    .logo {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 881px) {
+    .logo {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .logo {
+        font-size: 40px;
+    }
+}

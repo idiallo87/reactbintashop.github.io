@@ -1,0 +1,35 @@
+/*
+<ProductConsumer>
+                                {value => {
+                                    return <h1>{value}</h1>;
+                                }}
+                            </ProductConsumer>
+
+*/
+
+:root {
+    --mainBlue: #FFAB00;
+    --lightBlue: #FFEA00;
+    --mainWhite: #f3f3f3;
+    --mainDark: #232528;
+    --mainRed: #b71c1c;
+}
+
+body {
+    font-family: 'Pangolin', cursive;
+    background: #FFF !important;
+    color: var(--mainDark) !important;
+}
+
+.text-title {
+    font-family: 'Playball', cursive;
+    color: #212121;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.text-blue {
+    background: -webkit-linear-gradient( left, #424242, #9E9E9E, #212121);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
